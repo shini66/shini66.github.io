@@ -89,3 +89,12 @@
     border-bottom-right-radius: 50%;
     background-color: rgba(102, 98, 98, 0.856);
 }
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
